@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tom Laiolo's Exercice 2</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/ex3.js"></script>
+  </head>
+  <body>
+    <h1><a href="/">Link to Start Page</a></h1>
+    <h2>Add new article</h2>
+    <form onsubmit="submitForm(event)">
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" required /><br />
+      <br />
+      <label for="content">Content:</label>
+      <textarea id="content" name="content" required></textarea><br />
+      <br />
+      <button type="submit">Add</button>
+    </form>
+    <div id="output"></div>
+  </body>
+</html>

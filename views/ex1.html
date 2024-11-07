@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tom Laiolo's Exercice 1</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/ex1.js"></script>
+  </head>
+  <body>
+    <h1><a href="/">Link to Start Page</a></h1>
+    <form onsubmit="submitForm(event)">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" />
+      <br />
+      <br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" />
+      <br />
+      <br />
+      <label>Payment type</label>
+      <br />
+      <input type="radio" id="Cash" name="payment" value="Cash" />
+      <label for="Cash">Cash</label>
+      <br />
+      <input type="radio" id="Credit Card" name="payment" value="Credit Card" />
+      <label for="Credit Card">Credit Card</label>
+      <br />
+      <input type="radio" id="Google Pay" name="payment" value="Google Pay" />
+      <label for="Google Pay">Google Pay</label>
+      <br />
+      <input type="radio" id="Apple Pay" name="payment" value="Apple Pay" />
+      <label for="Apple Pay">Apple Pay</label>
+      <br />
+      <br />
+      <input type="checkbox" id="sign" name="sign" />
+      <label for="sign">Sign me for special promotions</label>
+      <br />
+      <br />
+      <label for="location">Prefered Location</label>
+      <select id="location" name="location">
+        <option value="Los Angeles">Los Angeles</option>
+        <option value="Orange County">Orange County</option>
+        <option value="Riverside">Riverside</option>
+        <option value="San Diego">San Diego</option>
+      </select>
+      <br />
+      <br />
+      <button type="submit">Submit</button>
+      <button type="reset">Cancel</button>
+      <br />
+      <br />
+    </form>
+    <div id="output"></div>
+  </body>
+</html>
